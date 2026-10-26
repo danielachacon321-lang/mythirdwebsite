@@ -33,3 +33,9 @@ footer {
 .altura {
     height: 200px;
 }
+
+@media (max-width: 767px) {
+    aside {
+        order: -1;
+    } 
+}
